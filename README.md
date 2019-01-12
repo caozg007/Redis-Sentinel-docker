@@ -1,5 +1,9 @@
 Redis-sentinel集群部署
 
+Redis：1主2从<br>
+sentinel：3个，全部配置monitor 主redis
+部署推荐方式：三台服务器，每台部署1个Redis，1个sentinel<br>
+
 1.镜像准备<br>
 Redis镜像：直接docker pull redis<br>
 Redis-sentinel镜像：使用Dockerfile制作<br>
