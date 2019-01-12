@@ -1,3 +1,10 @@
+# --------------------------------------------
+# Created by caozg007, 2019.01.12
+#            czg.exe@163.com
+#
+# Project Redis-Sentinel-docker:
+# https://github.com/caozg007/Redis-Sentinel-docker
+# --------------------------------------------
 # Pull base image.
 FROM centos:7
 MAINTAINER caozg007
